@@ -18,7 +18,7 @@ void insertion_sort(int vet[],int tam ){
 
 		vet[j + 1] = aux;
 	}
-	tempo=clock()-tempo; ///se eu tirar o /CLOCKS_PER_SEC o retorno da um valor diferente de 0 (acredito que esteja pegando apenas a parte inteira)
+	tempo=clock()-tempo;
 	cout<<"Tempo de ordenacao com Insertion Sort: "<<(float)tempo/CLOCKS_PER_SEC<<" segundos"<<endl;
                 /*cout<<"Vetor ordenado: "<<endl;
                 for(int i=0;i<tam;i++){
